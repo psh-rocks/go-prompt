@@ -56,9 +56,9 @@ func (r *Render) getCurrentPrefix() string {
 }
 
 func (r *Render) renderPrefix() {
-	r.out.SetColor(r.prefixTextColor, r.prefixBGColor, false)
+	// r.out.SetColor(r.prefixTextColor, r.prefixBGColor, false)
 	r.out.WriteStr(r.getCurrentPrefix())
-	r.out.SetColor(DefaultColor, DefaultColor, false)
+	// r.out.SetColor(DefaultColor, DefaultColor, false)
 }
 
 // TearDown to clear title and erasing.

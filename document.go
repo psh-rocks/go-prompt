@@ -4,9 +4,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	istrings "github.com/c-bata/go-prompt/internal/strings"
 	runewidth "github.com/mattn/go-runewidth"
 	"github.com/psh-rocks/go-prompt/internal/bisect"
+	istrings "github.com/psh-rocks/go-prompt/internal/strings"
 )
 
 // Document has text displayed in terminal and cursor position.

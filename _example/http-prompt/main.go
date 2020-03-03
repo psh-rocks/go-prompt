@@ -10,7 +10,7 @@ import (
 	"path"
 	"strings"
 
-	prompt "github.com/c-bata/go-prompt"
+	prompt "github.com/psh-rocks/go-prompt"
 )
 
 type RequestContext struct {

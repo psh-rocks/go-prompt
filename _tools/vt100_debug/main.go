@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"syscall"
 
-	prompt "github.com/c-bata/go-prompt"
+	prompt "github.com/psh-rocks/go-prompt"
 	"github.com/psh-rocks/go-prompt/internal/term"
 )
 
