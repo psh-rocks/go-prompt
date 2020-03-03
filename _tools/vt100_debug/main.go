@@ -7,7 +7,7 @@ import (
 	"syscall"
 
 	prompt "github.com/c-bata/go-prompt"
-	"github.com/c-bata/go-prompt/internal/term"
+	"github.com/psh-rocks/go-prompt/internal/term"
 )
 
 func main() {
